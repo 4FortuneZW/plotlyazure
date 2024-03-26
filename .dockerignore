@@ -1,10 +1,14 @@
 **/__pycache__
 
+**/.asset
 **/.vscode
 **/.venv
 **/.env
 **/.git
 **/.gitignore
+**/.templates
 
 LICENSE
 README.md
+figures.py
+maintemp.py

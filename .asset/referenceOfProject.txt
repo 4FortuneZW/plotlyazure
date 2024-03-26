@@ -1,0 +1,2 @@
+https://github.com/TelRich/Data-Entry-App-with-Streamlit/tree/main
+https://towardsdatascience.com/azure-container-app-a-data-analytics-webapp-with-python-flask-plotly-dash-docker-869686a558cc

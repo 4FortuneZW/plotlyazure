@@ -19,9 +19,8 @@ COPY . /app
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-# Expose port 5000:
+# Expose Streamlit default port:
 EXPOSE 5000
 
-# Bind to use Gunicorn server and specify main entry point main.py/server object:
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "main:server"]
-
+# Set streamlit server command with default port:
+CMD ["streamlit", "run", "main.py", "--server.port=5000", "--server.address=0.0.0.0"]
